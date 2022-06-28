@@ -85,7 +85,7 @@ body {
   justify-content: center;
   align-content: center;
   flex-grow: 1;
-  grid-template-columns: repeat(3, 4em);
+  grid-template-columns: repeat(8, 4em);
   grid-template-rows: repeat(6, 4em);
   gap: .25em;
   margin-bottom: 1em;
