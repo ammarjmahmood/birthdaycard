@@ -195,7 +195,7 @@ body {
   align-items: center;
   flex-direction: column;
   color: white;
-  height: 450px;
+  height: 550px;
   width: 500px;
   border-radius: 20px;
   box-shadow: 0 0 20px 8px #d0d0d0;
@@ -211,7 +211,7 @@ body {
   align-items: center;
   flex-direction: column;
   color: white;
-  height: 450px;
+  height: 550px;
   width: 500px;
   border-radius: 20px;
   box-shadow: 0 0 20px 8px #d0d0d0;
@@ -241,6 +241,7 @@ body {
   transform: translatey(-50%);
   text-align: center;
   padding: 40px;
+  font-size: 18px;
   font-family: 'Merriweather', serif;
 }
 
