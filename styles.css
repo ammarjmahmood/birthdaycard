@@ -188,15 +188,15 @@ body {
 .alert-container {
   position: fixed;
   top: 35vh;
-  left: 20vw;
+  left: 15vw;
   transform: translate(-50%, -50%);
   z-index: 1;
   display: flex;
   align-items: center;
   flex-direction: column;
   color: white;
-  height: 550px;
-  width: 500px;
+  height: 58%;
+  width: 15%;
   border-radius: 20px;
   box-shadow: 0 0 20px 8px #d0d0d0;
 }
@@ -204,15 +204,15 @@ body {
 .alert-container2 {
   position: fixed;
   top: 35vh;
-  left: 80%;
+  left: 85%;
   transform: translate(-50%, -50%);
   z-index: 1;
   display: flex;
   align-items: center;
   flex-direction: column;
   color: white;
-  height: 550px;
-  width: 500px;
+  height: 58%;
+  width: 15%;
   border-radius: 20px;
   box-shadow: 0 0 20px 8px #d0d0d0;
 }
@@ -241,7 +241,7 @@ body {
   transform: translatey(-50%);
   text-align: center;
   padding: 40px;
-  font-size: 18px;
+  font-size: 2vh;
   font-family: 'Merriweather', serif;
 }
 
