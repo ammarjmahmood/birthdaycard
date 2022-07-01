@@ -666,7 +666,7 @@ function shakeTiles(tiles) {
 
 function checkWinLose(guess, tiles) {
   if (guess === targetWord) {
-    //showAlert("WORDLE 2/3", 5000)
+    showAlert("Solve the next wordle for the sentance, you might be able to guess it but that ruins the fun...", 5000)
     danceTiles(tiles)
     stopInteraction()
     setTimeout(myFunction, 5000);

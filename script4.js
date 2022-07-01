@@ -663,7 +663,7 @@ function shakeTiles(tiles) {
 
 function checkWinLose(guess, tiles) {
   if (guess === targetWord) {
-    //showAlert("COUNT TO 5!!", 5000)
+    showAlert("Count to 5!!", 5000)
     danceTiles(tiles)
     stopInteraction()
     setTimeout(myFunction, 5000);

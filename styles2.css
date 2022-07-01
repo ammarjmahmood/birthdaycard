@@ -220,6 +220,8 @@ body {
 }
 
 .alert {
+  position:fixed;
+  top: 70vh;
   pointer-events: none;
   background-color: hsl(204, 7%, 85%);
   padding: .75em;

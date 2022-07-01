@@ -664,7 +664,7 @@ function shakeTiles(tiles) {
 
 function checkWinLose(guess, tiles) {
   if (guess === targetWord) {
-    //showAlert("ALL THAT IS LEFT IS YOUR SUPRISE", 5000)
+    showAlert("All that is left is something for me to know and you to find out...", 5000)
     danceTiles(tiles)
     stopInteraction()
     setTimeout(myFunction, 5000);
