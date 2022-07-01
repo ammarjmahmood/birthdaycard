@@ -13138,7 +13138,7 @@ function shakeTiles(tiles) {
 
 function checkWinLose(guess, tiles) {
   if (guess === targetWord) {
-    showAlert("YOU WILL NOW BE REDIRECTED TO THE NEXT WORDLE TO SOLVE FOR THE SENTANCE", 5000)
+    //showAlert("YOU WILL NOW BE REDIRECTED TO THE NEXT WORDLE TO SOLVE FOR THE SENTANCE", 5000)
     danceTiles(tiles)
     stopInteraction()
     setTimeout(myFunction, 7000);
